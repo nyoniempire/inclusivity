@@ -1,9 +1,23 @@
 import java.io.*;
 import java.util.*;
 
+/*
+18/01/2019
+Best Poker hand
+author Bruce Nyoni
+
+This program predicts the best poker hands from the deck provided
+The deck is provided as a string type separated by comas
+This program assumes we are playing the Texas hold em
+Thus, no wild cards and instead of five of a kind, we have the royal Flush
+
+*/
+
 public class PokerHands{
 
+  //this list is used to keep the ranks of the cards
   public static String[] cardRank = {"2","3","4","5","6","7","8","9","10","J","Q","K","A"};
+  
   public static void main(String[] args){
 
 
